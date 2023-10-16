@@ -9,20 +9,20 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="412dp"
-        android:layout_height="287dp"
+        android:layout_width="421dp"
+        android:layout_height="149dp"
         android:layout_marginTop="461dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.945"
         app:srcCompat="@drawable/mujeres2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="409dp"
-        android:layout_height="459dp"
+        android:layout_width="404dp"
+        android:layout_height="540dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -32,65 +32,65 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.441">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout2"
-            android:layout_width="404dp"
-            android:layout_height="98dp"
+            android:layout_width="372dp"
+            android:layout_height="56dp"
             android:layout_marginStart="3dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="2dp"
             android:layout_marginBottom="360dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="165dp"
-                android:layout_marginTop="43dp"
-                android:layout_marginEnd="181dp"
-                android:layout_marginBottom="36dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="53dp"
                 android:text="Unete a la comunidad "
                 android:textSize="34sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.656"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.119" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/nombredeusuarioregistro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="54dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="51dp"
             android:text="Nombre de usuario"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/contraseñaregistro"
             app:layout_constraintEnd_toStartOf="@+id/registronombreusuario"
+            app:layout_constraintHorizontal_bias="0.818"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
 
         <EditText
             android:id="@+id/registronombreusuario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
-            android:layout_marginBottom="30dp"
+            android:layout_width="210dp"
+            android:layout_height="48dp"
             android:ems="10"
             android:inputType="text"
             android:minHeight="48dp"
             android:text="Name"
             app:layout_constraintBottom_toTopOf="@+id/registrocontraseñausuario"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
             app:layout_constraintVertical_bias="1.0" />
@@ -105,25 +105,21 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/confcontraseñaregistro"
             app:layout_constraintEnd_toStartOf="@+id/registrocontraseñausuario"
-            app:layout_constraintHorizontal_bias="0.346"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nombredeusuarioregistro" />
 
         <EditText
             android:id="@+id/registrocontraseñausuario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="183dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="29dp"
+            android:layout_width="210dp"
+            android:layout_height="48dp"
             android:ems="10"
             android:inputType="text"
             android:minHeight="48dp"
             android:text="Name"
             app:layout_constraintBottom_toTopOf="@+id/registroconfirmocontraseña"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/registronombreusuario" />
 
@@ -159,6 +155,20 @@
             app:layout_constraintStart_toEndOf="@+id/confcontraseñaregistro"
             app:layout_constraintTop_toBottomOf="@+id/registrocontraseñausuario" />
 
+        <Spinner
+            android:id="@+id/yearSpinner"
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="41dp"
+            android:entries="@array/years"
+            app:layout_constraintBottom_toTopOf="@+id/registroingresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/registroconfirmocontraseña" />
+
         <Button
             android:id="@+id/registroingresar"
             android:layout_width="wrap_content"
@@ -166,13 +176,42 @@
             android:layout_marginStart="142dp"
             android:layout_marginTop="328dp"
             android:layout_marginEnd="176dp"
-            android:text="Button"
+            android:text="Ingresar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
             app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/registrovolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="50dp"
+            android:text="Volver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/registroingresar"
+            app:layout_constraintTop_toBottomOf="@+id/registroconfirmocontraseña"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="56dp"
+            android:text="Año de nacimiento"
+            app:layout_constraintBottom_toTopOf="@+id/registroingresar"
+            app:layout_constraintEnd_toStartOf="@+id/yearSpinner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/confcontraseñaregistro" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">helper</string>
+    <string-array name="years">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
+
+
